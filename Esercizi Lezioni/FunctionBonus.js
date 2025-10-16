@@ -7,7 +7,7 @@ e buonasera se è sera (oltre le 17)
 */
 
 const nome = "Paolino";
-const orario = 13;
+const orario = 15;
 
 function ciao(nome, orario){
     if(orario <= 13){

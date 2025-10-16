@@ -22,9 +22,6 @@ const posts = [
 let nomiPosts = [];
 
 posts.map((post) => {
-    nomiPosts.push({
-        author: post.author
-    })
+    nomiPosts.push(post.author)
 })
-
 console.log(nomiPosts)
